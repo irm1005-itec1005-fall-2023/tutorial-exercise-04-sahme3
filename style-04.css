@@ -8,16 +8,10 @@
  .flex-container {
   height: 400px;
 
-  /* 1. Add a display flex property so the items are layed out in a row */
-
-  /* 2. Add a flex-direction property and set it to column */
-
-  /* 3. Add a justify-content property and set it to center */
-
-  /* 4. Use the align-items property to move the box to the center */
-
-  /* There are other ways to center a div - if you use another way that's cool too */
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*

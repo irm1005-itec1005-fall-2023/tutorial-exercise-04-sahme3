@@ -8,22 +8,17 @@
  .flex-container {
   height: 600px;
 
-  /* 1. Add a display flex property so the items are layed out in a row */
-
-  /* 2. Add a flex direction property so that the flex box is set to column and reverse */
-
-  /* 3. Add a justify-content property and set it to start */
-
-  /* 4. Use the align-items property to move the box to the center */
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: center;
 }
 
 .item:nth-child(2) {
-  background-color: #f1faee;
-  color: #242121;
-
-  /* 5. Use the flex-grow property to make the second box grow to fill the remaining space */
+  flex-grow: 1;
+  background-color: #c5ecb8;
+  color: #373232;
 }
-
 
 /*
  * YOU ARE DONE WITH THIS FILE
